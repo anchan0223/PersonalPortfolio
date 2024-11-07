@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <img src="headshot.jpg" alt="Anna Harvey Headshot" class="headshot">
+            <div class="intro-text">
+                <h1>Hello! I am Anna Harvey<span class="wave">👋</span></h1>
+                <h2>I am currently a senior studying Computer Science at Georgia State University. 
+                    I have a passion for building innovative solutions and tackling complex problems through coding and technology. 
+                    When I’m not immersed in programming, I enjoy playing pickleball and crocheting. I love staying active, learning new skills, 
+                    and exploring creative hobbies in my free time. Feel free to explore my work and get a glimpse into my journey as a CS student!</h2>
+            </div>
+        </div>
+        
+        <h1>My Work</h1>
+        <h2>My Projects</h2>
+        <div class="projects">
+        <div class="project-card" id="project1-card">
+            <img src="recipe.png" alt="Recipe App" class="project-image">
+            <div class="project-info">
+                <h3 class="project-title">MealMate</h3>
+                <p class="project-description">A meal planning app to help you organize your recipes and grocery list.</p>
+            </div>
+        </div>
+        <div class="project-card" id="project2-card">
+            <img src="suityourself.png" alt="SuitYourself App" class="project-image">
+            <div class="project-info">
+                <h3 class="project-title">SuitYourself</h3>
+                <p class="project-description">A meal planning app to help you organize your recipes and grocery list.</p>
+            </div>
+        </div>
+    </div>
+   
+        
+        <!-- Modal for Recipe App -->
+        <div class="modal" id="project1-modal">
+            <div class="modal-content">
+                <span class="close" id="close-project1">&times;</span>
+                <h2>SuitYourself</h2>
+                <p>I worked together with a teammate to complete this Android app. It is an app that allows users to look up recipes according to specific allergies. 
+                    Users can also favorite a recipe, which gets saved in the 'Favorites' tab. Additionally, users can add recipes to their daily meal planner. 
+                    From these recipes, users have the option to add ingredients directly to their grocery list.</p> 
+                    <p>Watch the demo on YouTube: 
+                        <a href="https://www.youtube.com/watch?v=R-3Arl9o4GY&ab_channel=anna" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-youtube"></i>  <!-- YouTube icon -->
+                        </a>
+                    </p>
+            
+                    <!-- Link to GitHub repository with GitHub icon -->
+                    <p>Check out the Figma: 
+                        <a href="https://github.com/anchan0223/Recipe-App" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>  <!-- GitHub icon -->
+                        </a>
+                    </p>
+            </div>
+        </div>
+
+        <div class="modal" id="project2-modal">
+            <div class="modal-content">
+                <span class="close" id="close-project2">&times;</span>
+                <h2>MealMate</h2>
+                <p>I worked together with a teammate to complete this Android app. It is an app that allows users to look up recipes according to specific allergies. 
+                    Users can also favorite a recipe, which gets saved in the 'Favorites' tab. Additionally, users can add recipes to their daily meal planner. 
+                    From these recipes, users have the option to add ingredients directly to their grocery list.</p> 
+                    <p>Watch the demo on YouTube: 
+                        <a href="https://www.youtube.com/watch?v=R-3Arl9o4GY&ab_channel=anna" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-youtube"></i>  <!-- YouTube icon -->
+                        </a>
+                    </p>
+            
+                    <!-- Link to GitHub repository with GitHub icon -->
+                    <p>Check out the GitHub repository: 
+                        <a href="https://github.com/anchan0223/Recipe-App" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>  <!-- GitHub icon -->
+                        </a>
+                    </p>
+            </div>
+        </div>
+        <h2>Certifications</h2>
+        <div class="projects">
+            <div class="project-card" id="certification1-card">
+                <img src="codepath.jpg" alt="Codepath Android Course Certifications" class="project-image">
+                <div class="project-info">
+                    <h3 class="project-title">Codepath Android Course Certification</h3>
+                </div>
+            </div>
+            <div class="project-card" id="certification2-card">
+                <img src="GWC.png" alt="Girls Who Code Certification" class="project-image">
+                <div class="project-info">
+                    <h3 class="project-title">Girls Who Code Accenture Work Prep</h3>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="project2-modal">
+            <div class="modal-content">
+                <span class="close" id="close-project2">&times;</span>
+                <img src="codepath.jpg" class="certification">
+            </div>
+        </div>
+        <div class="modal" id="project2-modal">
+            <div class="modal-content">
+                <span class="close" id="close-project2">&times;</span>
+                <img src="GWC.png" class="certification">
+            </div>
+        </div>
+        
+        
+        
+    </header>
+    <footer>
+        <p>Copyright © 2024 Anna Harvey</p>
+    </footer>
+    <script src="script.js">
+
+    </script> 
+
+</body>
+</html>
+
+
+
