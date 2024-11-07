@@ -244,46 +244,8 @@ p {
     height:400px;
 }
 
-/* Mobile Styles (for screens 768px or smaller) */
-@media (max-width: 768px) {
-    /* Adjust the intro section */
-    .intro {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-
-    /* Ensure intro text takes full width */
-    .intro-text {
-        max-width: 100%;
-        padding: 0 10px;
-    }
-
-    /* Stack the project cards vertically */
-    .projects-container {
-        flex-direction: column;
-        align-items: center;
-        padding: 0 10px;
-    }
-
-    /* Make project cards take up more space on mobile */
-    .project-card {
-        width: 80%; /* Increase the width of the cards on mobile */
-        margin-bottom: 20px;
-    }
-
-    /* Ensure project images are responsive */
-    .project-image {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-    }
-
-    /* Adjust modal size */
-    .modal-content {
-        width: 90%;
-        max-width: 500px;
-    }
+html {
+    scroll-behavior: smooth;
 }
 
 
