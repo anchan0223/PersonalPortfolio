@@ -316,10 +316,10 @@ li {
 .linkedin-button,
 .download-button {
     position: fixed;
-    bottom: 20px; /* 20px from the bottom of the screen */
-    right: 20px;   /* 20px from the left of the screen */
+    bottom: 20px; 
+    right: 20px;   
     padding: 10px 20px;
-    background-color: #0073b1; /* LinkedIn blue */
+    background-color: #0073b1; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -328,17 +328,17 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1000; /* Ensure it stays on top */
+    z-index: 1000; 
 }
 
 .download-button {
     background-color: #4CAF50; /* Green color for the resume button */
-    bottom: 80px; /* 60px below the LinkedIn button */
+    bottom: 80px; 
 }
 
 .linkedin-button:hover,
 .download-button:hover {
-    opacity: 0.8; /* Slightly transparent on hover */
+    opacity: 0.8; 
 }
 
 .linkedin-button button,
