@@ -309,40 +309,47 @@ li {
     background-color: #45a049;
 }
 
-/* Resume Download Section */
-.resume-download {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.linkedin-button,
+.download-button {
+    position: fixed;
+    bottom: 20px; /* 20px from the bottom of the screen */
+    right: 20px;   /* 20px from the left of the screen */
+    padding: 10px 20px;
+    background-color: #0073b1; /* LinkedIn blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensure it stays on top */
 }
+
+.download-button {
+    background-color: #4CAF50; /* Green color for the resume button */
+    bottom: 80px; /* 60px below the LinkedIn button */
+}
+
+.linkedin-button:hover,
+.download-button:hover {
+    opacity: 0.8; /* Slightly transparent on hover */
+}
+
+.linkedin-button button,
+.download-button button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: inherit;
+    cursor: pointer;
+}
+
 
 .resume-download h2 {
     font-size: 2rem;
     margin-bottom: 10px;
 }
 
-/* Resume Download Button - Fixed Position */
-.download-button {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    text-decoration: none;
-}
 
-.download-button button {
-    padding: 12px 30px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    text-align: center;
-}
-
-.download-button button:hover {
-    background-color: #45a049;
-}
