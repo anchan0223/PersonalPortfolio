@@ -248,4 +248,14 @@ html {
     scroll-behavior: smooth;
 }
 
+ul {
+    padding-left: 20px; /* Adjust the padding to control the distance from the left edge */
+    list-style-position: inside; /* Moves the bullets closer to the text */
+}
+
+li {
+    margin-bottom: 10px; /* Optional: adds space between the list items */
+}
+
+
 
